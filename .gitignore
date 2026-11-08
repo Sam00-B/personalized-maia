@@ -1,0 +1,43 @@
+# ---------- Python / editor ----------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Large engine, weights and data files (download separately, see README) ----------
+lc0-*/
+lc0*.zip
+maia-chess/
+maia2_models/
+*.pb.gz
+*.bz2
+maia-chess-testing-set*.csv
+maia-kdd2020.pdf
+
+# ---------- Trained models (about 90 MB each, over GitHub's comfortable size) ----------
+*.pt
+*.pth
+finetune_results/models/
+
+# ---------- Collected game data and generated datasets (recreate with the scripts) ----------
+*.pgn
+player_positions.csv
+positions_*.csv
+test set/
+training set/
+val set/
+control set/
+test_preds_*.csv
+single_game_*.csv
+
+# ---------- Local scratch ----------
+*.log
+*.tmp
+.env
+results_*.csv
+single_game_*.png

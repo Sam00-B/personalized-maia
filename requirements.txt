@@ -1,0 +1,10 @@
+# Minimal dependencies. For exact versions, run `python -m pip freeze > requirements.txt` inside your venv.
+python-chess
+pandas
+numpy
+matplotlib
+tqdm
+requests
+maia2
+# PyTorch: install the build that matches your GPU from https://pytorch.org/get-started/locally/
+torch
