@@ -75,7 +75,3 @@ Data are public Lichess games downloaded through the Lichess API. Set the player
 * Maia: McIlroy-Young et al., KDD 2020. Maia-2: Tang et al., NeurIPS 2024. Individual models: McIlroy-Young et al., KDD 2022. Code and weights: https://github.com/CSSLab/maia-chess and https://github.com/CSSLab/maia2 (see their licenses; weights and data are not redistributed here).
 * Leela Chess Zero (lc0): https://lczero.org
 * Game data: https://lichess.org (public games).
-
-## License
-
-Add a license of your choice for your own code (for example MIT). Check the licenses of the Maia repositories before reusing their code.
